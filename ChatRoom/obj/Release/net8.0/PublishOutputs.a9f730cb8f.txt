@@ -1,0 +1,8 @@
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\ChatRoom.exe
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\appsettings.json
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\libman.json
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\ChatRoom.dll
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\ChatRoom.deps.json
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\ChatRoom.runtimeconfig.json
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\PubTmp\Out\ChatRoom.pdb

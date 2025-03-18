@@ -1,0 +1,19 @@
+﻿<div class="row">
+    <div class="col-md-8 offset-2">
+        <h2>Bienvenido al Chat Room</h2>
+        <p>Ingresa tu nombre y selecciona una sala para comenzar a chatear:</p>
+        <form method="get" action="@Url.Action("Room", "Chat")">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Ingresa tu nombre" id="userName" name="userName" required />
+            </div>
+            <ul class="list-group">
+                @foreach (var e in ChatRoom.Controllers.ChatController.Rooms)
+                {
+                    <li class="list-group-item">
+                        <a href="~/Chat/Room?room=@e.Key&userName=@Model"> @e.Value </a>
+                    </li>
+                }
+            </ul>
+        </form>
+    </div>
+</div>

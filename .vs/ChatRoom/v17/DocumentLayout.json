@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\programas\\ChatRoom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Program.cs",
+              "RelativeDocumentMoniker": "ChatRoom\\Program.cs",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Program.cs",
+              "RelativeToolTip": "ChatRoom\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T19:09:03.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChatRoom\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "ChatRoom\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T17:00:46.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChatRoom\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ChatRoom\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T17:00:43.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
