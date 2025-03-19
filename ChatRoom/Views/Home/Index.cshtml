@@ -1,11 +1,11 @@
 ﻿@{
     Layout = "_Layout";  // Si estás usando un layout general, lo puedes mantener
 }
-
+<link href="~/css/homestyle.css" rel="stylesheet" />
 <div class="home-container">
     <div class="mode-toggle">
         <button id="toggleMode" class="btn-toggle">
-            <i class="fas fa-moon"></i> <!-- Icono para modo noche -->
+            <i class="fas fa-moon" ></i> <!-- Icono para modo noche -->
         </button>
     </div>
     <!-- Hero Section -->
@@ -30,7 +30,14 @@
             <p>Disfruta de todas nuestras funciones sin tener que pagar ni un centavo. ¡Es todo gratis!</p>
         </div>
     </div>
-
+    <div id="nameModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Ingresa tu nombre</h2>
+            <input type="text" id="username" placeholder="Escribe tu nombre" required>
+            <button id="submitName">Unirse</button>
+        </div>
+    </div>
     <!-- Salas de chat -->
     <div id="salas" class="chat-rooms-section">
         <h2>Salas de Chat Disponibles</h2>
@@ -39,7 +46,8 @@
             @foreach (var room in ChatRoom.Controllers.ChatController.Rooms)
             {
                 <li class="list-group-item">
-                    <a href="~/Chat/Room?room=@room.Key" class="room-link">@room.Value</a>
+                    @* <a href="~/Chat/Room?room=@room.Key" class="room-link">@room.Value</a> *@
+                    <a href="javascript:void(0);" class="room-link" onclick="showNameModal('@room.Key')">@room.Value</a>
                 </li>
             }
         </ul>
@@ -47,317 +55,10 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>&copy; 2025 ChatRoom. Todos los derechos reservados.</p>
+        <p>&copy; 2025 HBA Chat. Todos los derechos reservados.</p>
     </div>
 </div>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<style>
-    /* Estilos generales */
-    body .hero-section, .footer, .features, .chat-rooms-section {
-        transition: all 0.3s ease-in-out;}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 
-    .home-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100vh;
-    }
-
-    .mode-toggle {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-    }
-
-    .btn-toggle {
-        background-color: transparent;
-        border: 2px solid #ccc;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 20px;
-        cursor: pointer;
-        transition: background-color 0.3s, border-color 0.3s;
-    }
-
-        .btn-toggle:hover {
-            background-color: #e1e8f7;
-            border-color: #5c6bc0;
-        }
-
-    /* Hero Section */
-    .hero-section {
-        
-        text-align: center;
-        padding: 80px 20px;
-        flex: 1;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        transition: background 0.3s, color 0.3s;
-    }
-
-        .hero-section h1 {
-            font-size: 3.8em;
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-
-        .hero-section p {
-            font-size: 1.4em;
-            margin-bottom: 30px;
-            font-weight: 400;
-        }
-
-    .btn {
-        background-color: #5c6bc0;
-        color: white;
-        font-size: 1.2em;
-        padding: 15px 30px;
-        border-radius: 50px;
-        text-decoration: none;
-        transition: background-color 0.3s;
-        box-shadow: 0px 6px 15px rgba(92, 107, 192, 0.3);
-    }
-
-        .btn:hover {
-            background-color: #4e5bc0;
-            box-shadow: 0px 8px 20px rgba(92, 107, 192, 0.4);
-        }
-
-    body.light-mode {
-        background-color: #f4f7fc;
-        color: #333;
-    }
-
-    .hero-section.light-mode {
-        background: linear-gradient(135deg, #ffffff, #000000);
-        color: white;
-    }
-
-    .footer.light-mode {
-        background-color: #212529;
-        color: white;
-    }
-    /* Sección de características */
-    .features {
-        display: flex;
-        justify-content: space-around;
-        padding: 60px 20px;
-        background-color: #ffffff;
-        border-radius: 15px;
-        margin: -50px 20px 20px;
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-    }
-
-    .features.light-mode {
-            background-color: #ffffff;
-        }
-    .feature-item {
-        text-align: center;
-        width: 30%;
-        padding: 20px;
-        background: linear-gradient(135deg, #ffffff, #000000);
-      
-        border-radius: 15px;
-        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-
-        .feature-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .feature-item h3 {
-            font-size: 2.2em;
-            margin-bottom: 15px;
-            color: #5c6bc0;
-            font-weight: 600;
-        }
-
-        .feature-item p {
-            font-size: 1.1em;
-            color: #fff;
-        }
-
-    /* Salas de chat */
-    .chat-rooms-section {
-        text-align: center;
-        padding: 60px 20px;
-        background-color: #e9f1fd;
-        border-radius: 15px;
-        margin: 20px 20px;
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-    }
-
-        .chat-rooms-section h2 {
-            font-size: 2.8em;
-            margin-bottom: 20px;
-            color: #5c6bc0;
-            font-weight: 700;
-        }
-
-        .chat-rooms-section p {
-            font-size: 1.2em;
-            margin-bottom: 30px;
-            color: #555;
-        }
-
-    .list-group {
-        display: inline-block;
-        text-align: left;
-        padding-left: 0;
-        list-style: none;
-        margin: 0;
-    }
-
-    .list-group-item {
-        padding: 15px 30px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        font-size: 1.2em;
-        color: #333;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        cursor: pointer;
-    }
-
-        .list-group-item:hover {
-            background-color: #e1e8f7;
-            transform: translateY(-5px);
-        }
-
-    .room-link {
-        color: #5c6bc0;
-        text-decoration: none;
-        font-weight: 600;
-    }
-
-        .room-link:hover {
-            text-decoration: underline;
-        }
-
-    body.dark-mode {
-        background-color: #181818;
-        color: white;
-    }
-        
-    .hero-section.dark-mode {
-        background: linear-gradient(135deg, #2d3436, #000000);
-        color: white;
-    }
-
-    .footer.dark-mode {
-        background-color: #2b2b2b;
-        color: white;
-    }
-
-    .features.dark-mode {
-        background-color: #2a2a2a;
-        border-radius: 15px;
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-    }
-
-    .feature-item.dark-mode {
-        background: linear-gradient(135deg, #2d3436, #000000);
-        color:white;
-        border-radius: 15px;
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-
-    }
-    .chat-rooms-section.dark-mode {
-        background-color: #3c3c3c;
-    }
-    /* Footer */
-    .footer {
-        background-color: #212529;
-        color: white;
-        text-align: center;
-        padding: 15px 20px;
-        font-size: 1em;
-    }
-</style>
-<script>
-    // Almacenar preferencia del usuario en Local Storage
-    const modeToggleButton = document.getElementById("toggleMode");
-    const bodyElement = document.body;
-    const heroSection = document.querySelector('.hero-section');
-    const featuresSection = document.querySelector('.features');
-    const featuresItemSection=document.querySelectorAll('.feature-item')
-    const chatRoomsSection = document.querySelector('.chat-rooms-section');
-    const footerSection = document.querySelector('.footer');
-
-    // Cargar el modo preferido al iniciar la página
-    window.onload = () => {
-        if (localStorage.getItem("theme") === "dark") {
-            bodyElement.classList.add("dark-mode");
-            bodyElement.classList.remove("light-mode");
-            heroSection.classList.add("dark-mode");
-            heroSection.classList.remove("light-mode");
-            featuresSection.classList.add("dark-mode");
-            featuresSection.classList.remove("light-mode");
-            chatRoomsSection.classList.add("dark-mode");
-            chatRoomsSection.classList.remove("light-mode");
-            footerSection.classList.add("dark-mode");
-            footerSection.classList.remove("light-mode");
-            featuresItemSection.forEach(item => {
-            item.classList.add("dark-mode");
-            item.classList.remove("light-mode");
-        });
-        } else {
-            bodyElement.classList.add("light-mode");
-            bodyElement.classList.remove("dark-mode");
-            heroSection.classList.add("light-mode");
-            heroSection.classList.remove("dark-mode");
-            featuresSection.classList.add("light-mode");
-            featuresSection.classList.remove("dark-mode");
-            chatRoomsSection.classList.add("light-mode");
-            chatRoomsSection.classList.remove("dark-mode");
-            footerSection.classList.add("light-mode");
-            footerSection.classList.remove("dark-mode");
-            featuresItemSection.forEach(item => {
-            item.classList.add("light-mode");
-            item.classList.remove("dark-mode");
-        });
-        }
-    };
-
-    // Cambiar entre modo noche y modo día
-    modeToggleButton.addEventListener("click", () => {
-        if (bodyElement.classList.contains("light-mode")) {
-            bodyElement.classList.add("dark-mode");
-            bodyElement.classList.remove("light-mode");
-            heroSection.classList.add("dark-mode");
-            heroSection.classList.remove("light-mode");
-            featuresSection.classList.add("dark-mode");
-            featuresSection.classList.remove("light-mode");
-            featuresItemSection.forEach(item => {
-            item.classList.add("dark-mode");
-            item.classList.remove("light-mode");
-        });
-            chatRoomsSection.classList.add("dark-mode");
-            chatRoomsSection.classList.remove("light-mode");
-            footerSection.classList.add("dark-mode");
-            footerSection.classList.remove("light-mode");
-            localStorage.setItem("theme", "dark"); // Guardar preferencia
-            modeToggleButton.innerHTML = '<i class="fas fa-sun"></i>';  // Icono de sol
-        } else {
-            bodyElement.classList.add("light-mode");
-            bodyElement.classList.remove("dark-mode");
-            heroSection.classList.add("light-mode");
-            heroSection.classList.remove("dark-mode");
-            featuresSection.classList.add("light-mode");
-            featuresSection.classList.remove("dark-mode");
-            chatRoomsSection.classList.add("light-mode");
-            chatRoomsSection.classList.remove("dark-mode");
-            footerSection.classList.add("light-mode");
-            footerSection.classList.remove("dark-mode");
-            featuresItemSection.forEach(item => {
-            item.classList.add("light-mode");
-            item.classList.remove("dark-mode");
-            });
-            localStorage.setItem("theme", "light"); // Guardar preferencia
-            modeToggleButton.innerHTML = '<i class="fas fa-moon"></i>';  // Icono de luna
-        }
-    });
-</script>
+<script src="~/js/HomeModalScript.js"></script>
+<script src="~/js/Homescript.js"></script>

@@ -26,10 +26,11 @@ E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\staticwebassets\msbuild.build.Ch
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ChatRoom.props
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ChatRoom.props
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\staticwebassets.pack.json
-E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\ChatRoom.dll
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\refint\ChatRoom.dll
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\ChatRoom.pdb
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\ChatRoom.genruntimeconfig.cache
 E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\ref\ChatRoom.dll
 E:\programas\ChatRoom\ChatRoom\bin\Debug\net8.0\libman.json
+E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\ChatRoom.sourcelink.json
+E:\programas\ChatRoom\ChatRoom\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

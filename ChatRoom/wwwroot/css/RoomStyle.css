@@ -1,0 +1,132 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #5c6bc0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #5c6bc0;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+    input[type="text"]:focus {
+        outline: none;
+        border-color: #5c6bc0;
+    }
+
+button {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+    button:hover {
+        background-color: #4e5bc0;
+        box-shadow: 0px 6px 15px rgba(92, 107, 192, 0.3);
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close-btn:hover,
+    .close-btn:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Estilos para el modo claro y oscuro */
+body.light-mode {
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #181818;
+    color: white;
+}
+
+.hero-section.light-mode {
+    background: linear-gradient(135deg, #ffffff, #000000);
+    color: white;
+}
+
+.hero-section.dark-mode {
+    background: linear-gradient(135deg, #2d3436, #000000);
+    color: white;
+}
+
+button.light-mode {
+    background-color: #5c6bc0;
+}
+
+button.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+/* Ajustes para los elementos de la interfaz */
+#user {
+    visibility: hidden;
+}
+
+/* Estilo para la interfaz móvil */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

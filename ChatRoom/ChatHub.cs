@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using ChatRoom.Controllers;
+using Microsoft.AspNetCore.SignalR;
 
 namespace ChatRoom
 {
@@ -10,11 +11,10 @@ namespace ChatRoom
         }
         public async Task AddToGroup(string room)
         {
-
             await Groups.AddToGroupAsync(Context.ConnectionId, room);
             
             //avisar Quien llego
-            await Clients.Group(room).SendAsync("ShowWho",$"Alguien se conecto: {Context.ConnectionId}");
+            await Clients.Group(room).SendAsync("ShowWho",$"Alguien se conecto:{Context.ConnectionId}");
         }
     }
 }

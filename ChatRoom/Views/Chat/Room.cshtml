@@ -1,124 +1,16 @@
-﻿@* @model int
-<h1>@ChatRoom.Controllers.ChatController.Rooms.GetValueOrDefault(Model)</h1>
-<div class="row">
-    <div class="col-12">
-        <input type="text" placeholder="usuario" id="user"/>
-        <input type="text" placeholder="texto" id="message"/>
-        <button id="btnSend">Send</button>
-    </div>
-</div>
-<div class="row">
-    <div class="col-6">
-        <div id="messages"></div>
-    </div>
-    <div class="col-6">
-        <div id="notifications"></div>
-    </div>
-</div>
-<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
-
-<script>
-    var connection=new signalR.HubConnectionBuilder().withUrl("/Chat").build();
-
-    connection.start().then(()=>{
-        connection.invoke("AddToGroup","@Model")
-    }).catch(()=>console.error(e));
-
-    document.getElementById("btnSend").addEventListener("click", (event) => {
-        let room = "@Model";
-        let user = document.getElementById("user").value;
-        let message = document.getElementById("message").value;
-
-        connection.invoke("SendMessage", room, user, message)
-            .catch((err) => console.error(err.toString()));
-
-        document.getElementById("message").value = "";
-        document.getElementById("message").focus();
-        event.preventDefault();
-    });
-
-    connection.on("ReceiveMessage", (user, message) => {
-        var messageHTML = "<div><b>" + user + " dijo:</b> " + message + "</div>";
-        document.getElementById("messages").innerHTML = messageHTML + document.getElementById("messages").innerHTML;
-    });
-    connection.on("ShowWho", (message) => {
-        var messageHTML = "<div><b>" + message + "</b> </div>";
-        document.getElementById("notifications").innerHTML = messageHTML + document.getElementById("notifications").innerHTML;
-    });
-</script> *@
-
-@*     @model int
-<h1>@ChatRoom.Controllers.ChatController.Rooms.GetValueOrDefault(Model)</h1>
-<div class="row">
-    <div class="col-12">
-        <input type="text" placeholder="usuario" id="user" />
-        <input type="text" placeholder="texto" id="message" />
-        <button id="btnSend">Send</button>
-    </div>
-</div>
-<div class="row">
-    <div class="col-6">
-        <div id="messages"></div>
-    </div>
-    <div class="col-6">
-        <div id="notifications"></div>
-    </div>
-</div>
-<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
-
-<script>
-    var connection = new signalR.HubConnectionBuilder().withUrl("/chat").build();
-
-    // Establecer la conexión
-    connection.start().then(() => {
-        console.log("Conexión SignalR establecida.");
-        // Una vez que la conexión esté establecida, unir al grupo (sala)
-        connection.invoke("AddToGroup", "@Model")
-            .catch((err) => console.error("Error al unirse al grupo: " + err.toString()));
-    }).catch((err) => {
-        console.error("Error de conexión SignalR: " + err.toString());
-    });
-
-    // Enviar un mensaje
-    document.getElementById("btnSend").addEventListener("click", (event) => {
-        let room = "@Model";
-        let user = document.getElementById("user").value;
-        let message = document.getElementById("message").value;
-
-        // Invocar el método 'SendMessage' en SignalR
-        connection.invoke("SendMessage", room, user, message)
-            .catch((err) => console.error("Error al enviar mensaje: " + err.toString()));
-
-        // Limpiar el campo de mensaje después de enviarlo
-        document.getElementById("message").value = "";
-        document.getElementById("message").focus();
-        event.preventDefault();
-    });
-
-    // Recibir un mensaje en tiempo real
-    connection.on("ReceiveMessage", (user, message) => {
-        var messageHTML = "<div><b>" + user + " dijo:</b> " + message + "</div>";
-        document.getElementById("messages").innerHTML = messageHTML + document.getElementById("messages").innerHTML;
-    });
-
-    // Recibir notificaciones de usuarios
-    connection.on("ShowWho", (message) => {
-        var messageHTML = "<div><b>" + message + "</b></div>";
-        document.getElementById("notifications").innerHTML = messageHTML + document.getElementById("notifications").innerHTML;
-    });
-</script> *@
+﻿
 @model int
 @{
     string roomName = ChatRoom.Controllers.ChatController.Rooms.GetValueOrDefault(Model);
 }
-
-<h1>Bienvenido a @roomName</h1>
+<link href="~/css/RoomStyle.css" rel="stylesheet" />
+<h1>Bienvenido a @roomName,@ViewBag.Username</h1>
 <p>¡Estás en la sala @roomName! Chatea con otros usuarios aquí.</p>
 
+        <input type="text" placeholder="Usuario" id="user" value="@ViewBag.Username" style="visibility:hidden" />
 <div class="row">
     <div class="col-12">
-        <input type="text" placeholder="Usuario" id="user" />
-        <input type="text" placeholder="Mensaje" id="message" />
+        <input type="text" placeholder="Mensaje" id="message"/>
         <button id="btnSend">Enviar</button>
     </div>
 </div>
@@ -132,44 +24,4 @@
 </div>
 <script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
 
-<script>
-    var connection = new signalR.HubConnectionBuilder().withUrl("/chat").build();
-
-    // Establecer la conexión
-    connection.start().then(() => {
-        console.log("Conexión SignalR establecida.");
-        // Una vez que la conexión esté establecida, unir al grupo (sala)
-        connection.invoke("AddToGroup", "@Model")
-            .catch((err) => console.error("Error al unirse al grupo: " + err.toString()));
-    }).catch((err) => {
-        console.error("Error de conexión SignalR: " + err.toString());
-    });
-
-    // Enviar un mensaje
-    document.getElementById("btnSend").addEventListener("click", (event) => {
-        let room = "@Model";
-        let user = document.getElementById("user").value;
-        let message = document.getElementById("message").value;
-
-        // Invocar el método 'SendMessage' en SignalR
-        connection.invoke("SendMessage", room, user, message)
-            .catch((err) => console.error("Error al enviar mensaje: " + err.toString()));
-
-        // Limpiar el campo de mensaje después de enviarlo
-        document.getElementById("message").value = "";
-        document.getElementById("message").focus();
-        event.preventDefault();
-    });
-
-    // Recibir un mensaje en tiempo real
-    connection.on("ReceiveMessage", (user, message) => {
-        var messageHTML = "<div><b>" + user + " dijo:</b> " + message + "</div>";
-        document.getElementById("messages").innerHTML = messageHTML + document.getElementById("messages").innerHTML;
-    });
-
-    // Recibir notificaciones de usuarios
-    connection.on("ShowWho", (message) => {
-        var messageHTML = "<div><b>" + message + "</b></div>";
-        document.getElementById("notifications").innerHTML = messageHTML + document.getElementById("notifications").innerHTML;
-    });
-</script> 
+<script src="~/js/RoomScript.js"></script> 
