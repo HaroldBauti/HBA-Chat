@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\programas\\ChatRoom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\wwwroot\\css\\homestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\wwwroot\\css\\homestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\wwwroot\\js\\homescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\wwwroot\\js\\homescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\views\\chat\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\views\\chat\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\wwwroot\\css\\roomstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\wwwroot\\css\\roomstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|e:\\programas\\chatroom\\chatroom\\wwwroot\\js\\roomscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C20D650D-3AD0-4A78-B077-5655C4303F5D}|ChatRoom\\ChatRoom.csproj|solutionrelative:chatroom\\wwwroot\\js\\roomscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,46 +37,85 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Program.cs",
-              "RelativeDocumentMoniker": "ChatRoom\\Program.cs",
-              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Program.cs",
-              "RelativeToolTip": "ChatRoom\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:09:03.702Z",
+              "Title": "Homescript.js",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\Homescript.js",
+              "RelativeDocumentMoniker": "ChatRoom\\wwwroot\\js\\Homescript.js",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\Homescript.js",
+              "RelativeToolTip": "ChatRoom\\wwwroot\\js\\Homescript.js",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-19T03:30:52.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Chat\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChatRoom\\Views\\Chat\\Index.cshtml",
-              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Chat\\Index.cshtml",
-              "RelativeToolTip": "ChatRoom\\Views\\Chat\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T17:00:46.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ChatRoom\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ChatRoom\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T17:00:43.335Z",
+              "WhenOpened": "2025-03-19T03:30:04.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Homestyle.css",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\Homestyle.css",
+              "RelativeDocumentMoniker": "ChatRoom\\wwwroot\\css\\Homestyle.css",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\Homestyle.css",
+              "RelativeToolTip": "ChatRoom\\wwwroot\\css\\Homestyle.css",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAwwPcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-19T03:18:40.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomStyle.css",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\RoomStyle.css",
+              "RelativeDocumentMoniker": "ChatRoom\\wwwroot\\css\\RoomStyle.css",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\RoomStyle.css",
+              "RelativeToolTip": "ChatRoom\\wwwroot\\css\\RoomStyle.css",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-19T03:18:32.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomScript.js",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\RoomScript.js",
+              "RelativeDocumentMoniker": "ChatRoom\\wwwroot\\js\\RoomScript.js",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\RoomScript.js",
+              "RelativeToolTip": "ChatRoom\\wwwroot\\js\\RoomScript.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwF8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-19T03:15:42.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Room.cshtml",
+              "DocumentMoniker": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Chat\\Room.cshtml",
+              "RelativeDocumentMoniker": "ChatRoom\\Views\\Chat\\Room.cshtml",
+              "ToolTip": "E:\\programas\\ChatRoom\\ChatRoom\\Views\\Chat\\Room.cshtml",
+              "RelativeToolTip": "ChatRoom\\Views\\Chat\\Room.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T02:41:17.23Z",
               "EditorCaption": ""
             }
           ]

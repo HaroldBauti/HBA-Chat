@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\ChatRoom.hec7y6upew.bundle.scp.css"
     },
     {
+      "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\Homestyle.css",
+      "PackagePath": "staticwebassets\\css\\Homestyle.css"
+    },
+    {
+      "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\RoomStyle.css",
+      "PackagePath": "staticwebassets\\css\\RoomStyle.css"
+    },
+    {
       "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\HomeModalScript.js",
+      "PackagePath": "staticwebassets\\js\\HomeModalScript.js"
+    },
+    {
+      "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\Homescript.js",
+      "PackagePath": "staticwebassets\\js\\Homescript.js"
+    },
+    {
+      "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\RoomScript.js",
+      "PackagePath": "staticwebassets\\js\\RoomScript.js"
     },
     {
       "Id": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\site.js",

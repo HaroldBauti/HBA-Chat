@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0SbcjmVkdqOFWohNkd8blS5WX4xulhuUDLOwetZA8yU=",
+  "Hash": "/UMATCq+R7KD2t/erFKUtFmH1Ni9ppos1wd4cuq0FtY=",
   "Source": "ChatRoom",
   "BasePath": "_content/ChatRoom",
   "Mode": "Default",
@@ -59,6 +59,48 @@
       "OriginalItemSpec": "E:\\programas\\ChatRoom\\ChatRoom\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ChatRoom.bundle.scp.css"
     },
     {
+      "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\Homestyle.css",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "css/Homestyle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qdbdaixkdg",
+      "Integrity": "IqNbssvkfrmWZGt9Ei2+AK8aIkS63r2lF8D5NV5VKQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Homestyle.css"
+    },
+    {
+      "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\RoomStyle.css",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "css/RoomStyle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6qur4hfrws",
+      "Integrity": "TuwRU8EnmTkRIKf+XEHqoJk8gnE/m8ssvN8CLurqupQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RoomStyle.css"
+    },
+    {
       "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\site.css",
       "SourceId": "ChatRoom",
       "SourceType": "Discovered",
@@ -99,6 +141,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\HomeModalScript.js",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "js/HomeModalScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "th4hkc38b3",
+      "Integrity": "AaWi10u/4PRX9RCl+NCAXALwkcHO1KXifnmXczfQr9A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\HomeModalScript.js"
+    },
+    {
+      "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\Homescript.js",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "js/Homescript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4fxzlblgz2",
+      "Integrity": "ENv7aMDY8RyGSP56PjwaquJiht5LJUMDnnBdsQwahbQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Homescript.js"
+    },
+    {
+      "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\RoomScript.js",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "js/RoomScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ca0ocr05z",
+      "Integrity": "VqwumO/Ai/EO5xrFaAKCovubqZYFtlggYHTpymTVUuM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\RoomScript.js"
     },
     {
       "Identity": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\site.js",
@@ -5874,6 +5979,170 @@
       ]
     },
     {
+      "Route": "css/Homestyle.css",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\Homestyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqNbssvkfrmWZGt9Ei2+AK8aIkS63r2lF8D5NV5VKQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IqNbssvkfrmWZGt9Ei2+AK8aIkS63r2lF8D5NV5VKQU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Homestyle.qdbdaixkdg.css",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\Homestyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqNbssvkfrmWZGt9Ei2+AK8aIkS63r2lF8D5NV5VKQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdbdaixkdg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Homestyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IqNbssvkfrmWZGt9Ei2+AK8aIkS63r2lF8D5NV5VKQU="
+        }
+      ]
+    },
+    {
+      "Route": "css/RoomStyle.6qur4hfrws.css",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\RoomStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuwRU8EnmTkRIKf+XEHqoJk8gnE/m8ssvN8CLurqupQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:23:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6qur4hfrws"
+        },
+        {
+          "Name": "label",
+          "Value": "css/RoomStyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuwRU8EnmTkRIKf+XEHqoJk8gnE/m8ssvN8CLurqupQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/RoomStyle.css",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\RoomStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuwRU8EnmTkRIKf+XEHqoJk8gnE/m8ssvN8CLurqupQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:23:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuwRU8EnmTkRIKf+XEHqoJk8gnE/m8ssvN8CLurqupQ="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -6034,6 +6303,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/HomeModalScript.js",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\HomeModalScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AaWi10u/4PRX9RCl+NCAXALwkcHO1KXifnmXczfQr9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 02:40:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AaWi10u/4PRX9RCl+NCAXALwkcHO1KXifnmXczfQr9A="
+        }
+      ]
+    },
+    {
+      "Route": "js/HomeModalScript.th4hkc38b3.js",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\HomeModalScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AaWi10u/4PRX9RCl+NCAXALwkcHO1KXifnmXczfQr9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 02:40:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "th4hkc38b3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/HomeModalScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AaWi10u/4PRX9RCl+NCAXALwkcHO1KXifnmXczfQr9A="
+        }
+      ]
+    },
+    {
+      "Route": "js/Homescript.4fxzlblgz2.js",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\Homescript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ENv7aMDY8RyGSP56PjwaquJiht5LJUMDnnBdsQwahbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:49:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4fxzlblgz2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Homescript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ENv7aMDY8RyGSP56PjwaquJiht5LJUMDnnBdsQwahbQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Homescript.js",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\Homescript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ENv7aMDY8RyGSP56PjwaquJiht5LJUMDnnBdsQwahbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:49:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ENv7aMDY8RyGSP56PjwaquJiht5LJUMDnnBdsQwahbQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/RoomScript.6ca0ocr05z.js",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\RoomScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqwumO/Ai/EO5xrFaAKCovubqZYFtlggYHTpymTVUuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ca0ocr05z"
+        },
+        {
+          "Name": "label",
+          "Value": "js/RoomScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqwumO/Ai/EO5xrFaAKCovubqZYFtlggYHTpymTVUuM="
+        }
+      ]
+    },
+    {
+      "Route": "js/RoomScript.js",
+      "AssetFile": "E:\\programas\\ChatRoom\\ChatRoom\\wwwroot\\js\\RoomScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqwumO/Ai/EO5xrFaAKCovubqZYFtlggYHTpymTVUuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 03:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqwumO/Ai/EO5xrFaAKCovubqZYFtlggYHTpymTVUuM="
         }
       ]
     },

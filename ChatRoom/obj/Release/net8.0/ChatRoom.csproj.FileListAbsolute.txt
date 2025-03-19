@@ -33,3 +33,4 @@ E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\refint\ChatRoom.dll
 E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\ChatRoom.pdb
 E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\ChatRoom.genruntimeconfig.cache
 E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\ref\ChatRoom.dll
+E:\programas\ChatRoom\ChatRoom\obj\Release\net8.0\ChatRoom.sourcelink.json

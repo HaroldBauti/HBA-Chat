@@ -4,7 +4,6 @@ namespace ChatRoom.Controllers
 {
     public class ChatController : Controller
     {
-        
 
         public static Dictionary<int,string> Rooms=
             new Dictionary<int, string>()
@@ -18,8 +17,10 @@ namespace ChatRoom.Controllers
             return View();
         }
 
-        public IActionResult Room(int room)
+        public IActionResult Room(int room, string username)
         {
+            // Almacenar el nombre del usuario en ViewBag
+            ViewBag.Username = username;
             return View("Room",room);
         }
     }
